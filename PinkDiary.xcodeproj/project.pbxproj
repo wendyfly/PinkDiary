@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2632F0A1C59EA13009A2BEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2632F091C59EA13009A2BEC /* main.m */; };
+		A2632F0D1C59EA13009A2BEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2632F0C1C59EA13009A2BEC /* AppDelegate.m */; };
+		A2632F101C59EA13009A2BEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2632F0F1C59EA13009A2BEC /* ViewController.m */; };
+		A2632F131C59EA13009A2BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2632F111C59EA13009A2BEC /* Main.storyboard */; };
+		A2632F161C59EA13009A2BEC /* PinkDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2632F141C59EA13009A2BEC /* PinkDiary.xcdatamodeld */; };
+		A2632F181C59EA13009A2BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2632F171C59EA13009A2BEC /* Assets.xcassets */; };
+		A2632F1B1C59EA13009A2BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2632F191C59EA13009A2BEC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2632F051C59EA13009A2BEC /* PinkDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinkDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2632F091C59EA13009A2BEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2632F0B1C59EA13009A2BEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2632F0C1C59EA13009A2BEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2632F0E1C59EA13009A2BEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2632F0F1C59EA13009A2BEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2632F121C59EA13009A2BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2632F151C59EA13009A2BEC /* PinkDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinkDiary.xcdatamodel; sourceTree = "<group>"; };
+		A2632F171C59EA13009A2BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2632F1A1C59EA13009A2BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2632F1C1C59EA13009A2BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2632F021C59EA13009A2BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2632EFC1C59EA13009A2BEC = {
+			isa = PBXGroup;
+			children = (
+				A2632F071C59EA13009A2BEC /* PinkDiary */,
+				A2632F061C59EA13009A2BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2632F061C59EA13009A2BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2632F051C59EA13009A2BEC /* PinkDiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2632F071C59EA13009A2BEC /* PinkDiary */ = {
+			isa = PBXGroup;
+			children = (
+				A2632F0B1C59EA13009A2BEC /* AppDelegate.h */,
+				A2632F0C1C59EA13009A2BEC /* AppDelegate.m */,
+				A2632F0E1C59EA13009A2BEC /* ViewController.h */,
+				A2632F0F1C59EA13009A2BEC /* ViewController.m */,
+				A2632F111C59EA13009A2BEC /* Main.storyboard */,
+				A2632F171C59EA13009A2BEC /* Assets.xcassets */,
+				A2632F191C59EA13009A2BEC /* LaunchScreen.storyboard */,
+				A2632F1C1C59EA13009A2BEC /* Info.plist */,
+				A2632F141C59EA13009A2BEC /* PinkDiary.xcdatamodeld */,
+				A2632F081C59EA13009A2BEC /* Supporting Files */,
+			);
+			path = PinkDiary;
+			sourceTree = "<group>";
+		};
+		A2632F081C59EA13009A2BEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2632F091C59EA13009A2BEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2632F041C59EA13009A2BEC /* PinkDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2632F1F1C59EA13009A2BEC /* Build configuration list for PBXNativeTarget "PinkDiary" */;
+			buildPhases = (
+				A2632F011C59EA13009A2BEC /* Sources */,
+				A2632F021C59EA13009A2BEC /* Frameworks */,
+				A2632F031C59EA13009A2BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinkDiary;
+			productName = PinkDiary;
+			productReference = A2632F051C59EA13009A2BEC /* PinkDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2632EFD1C59EA13009A2BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiaoWenwen;
+				TargetAttributes = {
+					A2632F041C59EA13009A2BEC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A2632F001C59EA13009A2BEC /* Build configuration list for PBXProject "PinkDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2632EFC1C59EA13009A2BEC;
+			productRefGroup = A2632F061C59EA13009A2BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2632F041C59EA13009A2BEC /* PinkDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2632F031C59EA13009A2BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2632F1B1C59EA13009A2BEC /* LaunchScreen.storyboard in Resources */,
+				A2632F181C59EA13009A2BEC /* Assets.xcassets in Resources */,
+				A2632F131C59EA13009A2BEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2632F011C59EA13009A2BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2632F101C59EA13009A2BEC /* ViewController.m in Sources */,
+				A2632F161C59EA13009A2BEC /* PinkDiary.xcdatamodeld in Sources */,
+				A2632F0D1C59EA13009A2BEC /* AppDelegate.m in Sources */,
+				A2632F0A1C59EA13009A2BEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2632F111C59EA13009A2BEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2632F121C59EA13009A2BEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2632F191C59EA13009A2BEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2632F1A1C59EA13009A2BEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2632F1D1C59EA13009A2BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2632F1E1C59EA13009A2BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2632F201C59EA13009A2BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PinkDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.wenwen.PinkDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2632F211C59EA13009A2BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PinkDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.wenwen.PinkDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2632F001C59EA13009A2BEC /* Build configuration list for PBXProject "PinkDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2632F1D1C59EA13009A2BEC /* Debug */,
+				A2632F1E1C59EA13009A2BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2632F1F1C59EA13009A2BEC /* Build configuration list for PBXNativeTarget "PinkDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2632F201C59EA13009A2BEC /* Debug */,
+				A2632F211C59EA13009A2BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2632F141C59EA13009A2BEC /* PinkDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2632F151C59EA13009A2BEC /* PinkDiary.xcdatamodel */,
+			);
+			currentVersion = A2632F151C59EA13009A2BEC /* PinkDiary.xcdatamodel */;
+			path = PinkDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2632EFD1C59EA13009A2BEC /* Project object */;
+}
