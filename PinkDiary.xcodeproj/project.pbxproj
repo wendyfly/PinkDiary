@@ -14,6 +14,10 @@
 		A2632F161C59EA13009A2BEC /* PinkDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2632F141C59EA13009A2BEC /* PinkDiary.xcdatamodeld */; };
 		A2632F181C59EA13009A2BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2632F171C59EA13009A2BEC /* Assets.xcassets */; };
 		A2632F1B1C59EA13009A2BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2632F191C59EA13009A2BEC /* LaunchScreen.storyboard */; };
+		A2632F231C59EA62009A2BEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2632F221C59EA62009A2BEC /* CoreGraphics.framework */; };
+		A2632F251C59EA6B009A2BEC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2632F241C59EA6B009A2BEC /* CoreData.framework */; };
+		A2632F271C59EA73009A2BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2632F261C59EA73009A2BEC /* UIKit.framework */; };
+		A2632F2A1C59FB70009A2BEC /* TheCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = A2632F291C59FB70009A2BEC /* TheCoreDataStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,11 @@
 		A2632F171C59EA13009A2BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2632F1A1C59EA13009A2BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2632F1C1C59EA13009A2BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2632F221C59EA62009A2BEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2632F241C59EA6B009A2BEC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A2632F261C59EA73009A2BEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2632F281C59FB70009A2BEC /* TheCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheCoreDataStack.h; sourceTree = "<group>"; };
+		A2632F291C59FB70009A2BEC /* TheCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheCoreDataStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2632F271C59EA73009A2BEC /* UIKit.framework in Frameworks */,
+				A2632F251C59EA6B009A2BEC /* CoreData.framework in Frameworks */,
+				A2632F231C59EA62009A2BEC /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +56,9 @@
 		A2632EFC1C59EA13009A2BEC = {
 			isa = PBXGroup;
 			children = (
+				A2632F261C59EA73009A2BEC /* UIKit.framework */,
+				A2632F241C59EA6B009A2BEC /* CoreData.framework */,
+				A2632F221C59EA62009A2BEC /* CoreGraphics.framework */,
 				A2632F071C59EA13009A2BEC /* PinkDiary */,
 				A2632F061C59EA13009A2BEC /* Products */,
 			);
@@ -62,6 +77,8 @@
 			children = (
 				A2632F0B1C59EA13009A2BEC /* AppDelegate.h */,
 				A2632F0C1C59EA13009A2BEC /* AppDelegate.m */,
+				A2632F281C59FB70009A2BEC /* TheCoreDataStack.h */,
+				A2632F291C59FB70009A2BEC /* TheCoreDataStack.m */,
 				A2632F0E1C59EA13009A2BEC /* ViewController.h */,
 				A2632F0F1C59EA13009A2BEC /* ViewController.m */,
 				A2632F111C59EA13009A2BEC /* Main.storyboard */,
@@ -152,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2632F2A1C59FB70009A2BEC /* TheCoreDataStack.m in Sources */,
 				A2632F101C59EA13009A2BEC /* ViewController.m in Sources */,
 				A2632F161C59EA13009A2BEC /* PinkDiary.xcdatamodeld in Sources */,
 				A2632F0D1C59EA13009A2BEC /* AppDelegate.m in Sources */,
